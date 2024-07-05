@@ -1,6 +1,8 @@
 import streamlit as st   
 import pandas as pd     
 from helpers import *
+import matplotlib.pyplot as plt
+
 
 
 summer,winter=data_preprocessor()
